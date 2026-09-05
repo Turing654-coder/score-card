@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basketball Score Card</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="card">
+            <div class="box" id="home">
+                <h1>HOME</h1>
+                <div class="score" id="score-home"></div>
+                <div>
+                    <button onclick="addHome1()">+1</button>
+                    <button onclick="addHome2()">+2</button>
+                    <button onclick="addHome3()">+3</button>
+                </div>
+            </div>
+            <div class="box" id="guest">
+                <h1>GUEST</h1>
+                <div class="score" id="score-guest"></div>
+                <div>
+                    <button onclick="addGuest1()">+1</button>
+                    <button onclick="addGuest2()">+2</button>
+                    <button onclick="addGuest3()">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
