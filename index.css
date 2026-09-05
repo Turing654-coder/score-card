@@ -33,7 +33,6 @@ button{
     font-size: xx-large;
     font-family: DSEG7;
     border-radius: 5px;
-    padding: 15px 20px;
 }
 
 .box{
@@ -41,6 +40,7 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 15px 20px;
 }
 
 @font-face {
